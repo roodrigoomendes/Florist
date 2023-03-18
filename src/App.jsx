@@ -1,11 +1,15 @@
+
 import Header from "./components/Header"
-import { Reset } from "./Reset"
+import AboutUs from './components/AboutUs';
+
 
 function App() {
   return (
     <>
     <Header/>
-
+    <main>
+      <AboutUs/>
+    </main>
     </>
   )
 }
