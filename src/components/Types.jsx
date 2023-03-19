@@ -5,7 +5,7 @@ import Outdoor from "../assets/icone/Outdoor_Plant.png"
 import Pots from "../assets/icone/Pots_Plant.svg"
 
 
-export default function AboutUs(){
+export default function Types(){
   return(
     <BoxAbout>
       <BoxDescription>

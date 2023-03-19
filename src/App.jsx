@@ -1,7 +1,8 @@
 
 import Header from "./components/Header"
-import AboutUs from './components/AboutUs';
+import Types from './components/Types';
 import Plants from './components/Plants';
+import Service from "./components/Service";
 
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
     <>
     <Header/>
     <main>
-      <AboutUs/>
+      <Types/>
       <Plants/>
+      <Service/>
     </main>
     </>
   )
