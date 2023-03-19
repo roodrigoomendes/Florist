@@ -33,17 +33,21 @@ margin-bottom: 120px;
 `
 
 export const Title = styled.h1`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   font-weight: 600;
   font-size: 2.25rem;
   color: #285A43;
-  text-align: center;
   margin-bottom: 35px;
 
 `
 
 const ListPlants = styled.section`
 display: flex;
-gap: 27px;
 flex-wrap: wrap;
-padding: 0 120px;
+justify-content: center;
+gap: 27px;
+padding: 120 0px;
 `

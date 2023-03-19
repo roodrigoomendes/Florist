@@ -33,6 +33,7 @@ export default function Testimony(){
 
 const ListTestimony = styled.section`
 display: flex;
+flex-wrap: wrap;
 gap: 70px;
 align-items: center;
 justify-content: center;

@@ -1,27 +1,38 @@
-import Logo from '../assets/image//logo.png'
+import Logo from '../assets/florest.png'
+
 import styled from "styled-components"
 
 export default function Navbar(){
   return(
     <BoxNav>
-      <img src={Logo} alt="Lush" />
+      <LogoBox>
+        <img src={Logo} alt="" />
+        <h1>Florest</h1>
+      </LogoBox>
       <OptionNav>
-        <a href="">Home</a>
-        <a href="">About Us</a>
-        <a href="">Planters</a>
-        <a href="">Contact</a>
         <Btn>Call Us</Btn>
       </OptionNav>
     </BoxNav>
   )
 }
 
+const LogoBox = styled.div`
+display: flex;
+gap: 5px;
+align-items: center;
+
+img{
+  width: 1.875rem;
+}
+`
+
 const BoxNav = styled.nav`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   color: #ffffff;
-  padding: 37px 110px 0;
+  padding: 37px 50px 0;
 
   `
 const OptionNav = styled.div`
@@ -29,12 +40,7 @@ const OptionNav = styled.div`
   gap: 51px;
   font-weight: 500;
   display: flex;
-  align-items: center;
-  
-  a:hover{
-    text-decoration: underline;
-  }
-  
+  align-items: center;  
   `
 
 export const Btn = styled.button`

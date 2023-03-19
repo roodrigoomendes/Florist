@@ -9,9 +9,9 @@ import styled from "styled-components";
 export default function Service(){
   return(
     <BoxService>
-      <div>
+      <BoxImage>
         <img src={ImageService} alt="" />
-      </div>
+      </BoxImage>
       <BoxItemService>
         <CardService ImageIcon={TimeCosuming} Title={'Quality Product'}>
           Our flowers are of the highest quality, carefully selected 
@@ -35,10 +35,24 @@ export default function Service(){
 
 const BoxService = styled.section`
 display: flex;
+justify-content: space-evenly;
+align-items: center;
 margin-bottom: 120px;
-`
+padding: 5px;
 
+@media screen and (max-width: 850px) {
+    flex-wrap: wrap;
+  }
+`
+const BoxImage = styled.div`
+>img{
+  width: 100%;
+}
+`
 const BoxItemService = styled.div`
 display: flex;
 flex-wrap: wrap;
+justify-content: space-evenly;
+gap: 10px;
+
 `

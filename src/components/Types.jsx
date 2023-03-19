@@ -10,14 +10,6 @@ export default function Types(){
     <BoxAbout>
       <BoxDescription>
         <h1>We Help choose the most suitable plants for you</h1>
-        <p>
-        Our selection includes a wide variety of flowers, from classic roses 
-        to exotic orchids, as well as a variety of lush indoor and outdoor 
-        plants and also offer unique floral arrangements that are perfect for 
-        any occasion, whether you're looking to brighten up your home or send 
-        a thoughtful gift. 
-        </p>
-
       </BoxDescription>
 
       <BoxService>
@@ -42,36 +34,33 @@ export default function Types(){
 
 const BoxAbout = styled.section`
 text-align: center;
-margin: 120px;
+margin: 120px 0;
+align-items: center;
+justify-content: center;
 
 `
 
 const BoxDescription = styled.div`
 display: flex;
-gap: 75px;
-margin-bottom: 90px;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 20px 90px;
 
 h1{
-  width: 476px;
+  
   font-weight: 600;
   font-size: 36px;
   color: #285A43;
 }
-
-p{
-    width: 648px;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: justify;
-  }
-  `
+`
 
 const BoxService = styled.div`
 display: flex;
+flex-wrap: wrap;
 margin: 90px 0;
 align-items: center;
-justify-content: space-around;
-
+justify-content: space-evenly;
+gap: 20px;
 >:nth-child(2){
   background: #285A43;
   color: #ffffff;

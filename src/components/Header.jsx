@@ -38,23 +38,26 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
-
   h1{
     Font-weight: 700;
     font-size: 4rem;
-    margin: 156px 0 15px;
+    margin: 80px 0 15px;
+    text-align: center;
   }
 
   p{
-    width: 787px;
-    font-weight: 500;
+    max-width: 70vw;
+    font-weight: 600;
     font-size: 1.125rem;
     text-align: center;
     margin-bottom: 37px;
+    display: flex;
+    flex-wrap: wrap;
   }
 `
 const BoxButton = styled.div`
 display: flex;
+flex-wrap: wrap;
 gap: 13px;
 justify-content: center;
 `
@@ -65,4 +68,5 @@ gap: 10px;
 export const BtnGreen = styled(Btn)`
 background: #285A43;
 border: #285A43;
+padding: 15px 75px;
 `

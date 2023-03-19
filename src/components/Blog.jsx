@@ -30,6 +30,7 @@ export default function Blog(){
 }
 const ListArticle = styled.div`
 display: flex;
+flex-wrap: wrap;
 gap: 70px;
 justify-content: center;
 margin-bottom: 120px;

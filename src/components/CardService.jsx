@@ -16,13 +16,13 @@ export default function CardService(props){
 }
 
 const CardItem = styled.div`
-width: 350px;
-height: 380px;
+width: 330px;
+height: 280px;
 border-radius: 10px;
 display: flex;
 flex-direction: column;
 text-align: start;
-padding: 20px 50px;
+padding: 20px 30px;
 border: 1px solid rgba(0, 0, 0, 0.03);
 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
 `

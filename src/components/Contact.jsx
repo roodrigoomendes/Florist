@@ -25,10 +25,27 @@ align-items: center;
 justify-content: space-around;
 margin-bottom: 120px;
 
+@media screen and (max-width: 850px) {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    padding: 25px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
 p{
+  display: flex;
+  flex-wrap: wrap;
   font-weight: 700;
   font-size: 2rem;
-  width: 570px;
+  max-width: 570px;
+
+  @media screen and (max-width: 850px) {
+    text-align: center;
+    flex-wrap: wrap;
+  }
 
 }
 
@@ -54,4 +71,5 @@ width: 145px;
 height: 48px;
 align-items: center;
 justify-content: center;
+padding: 15px;
 `
