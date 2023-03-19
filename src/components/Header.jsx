@@ -62,7 +62,7 @@ justify-content: center;
 const BtnIcon = styled(Btn)`
 gap: 10px;
 `
-const BtnGreen = styled(Btn)`
+export const BtnGreen = styled(Btn)`
 background: #285A43;
 border: #285A43;
 `
