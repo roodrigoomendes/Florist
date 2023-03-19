@@ -7,6 +7,7 @@ import Galery from './components/Galery';
 import Testimony from './components/Testimony';
 import Contact from "./components/Contact";
 import Blog from './components/Blog';
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Testimony/>
       <Contact/>
       <Blog/>
+      <Footer/>
     </main>
     </>
   )
