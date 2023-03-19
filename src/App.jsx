@@ -6,6 +6,7 @@ import Service from "./components/Service";
 import Galery from './components/Galery';
 import Testimony from './components/Testimony';
 import Contact from "./components/Contact";
+import Blog from './components/Blog';
 
 
 function App() {
