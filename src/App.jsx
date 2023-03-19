@@ -4,6 +4,7 @@ import Types from './components/Types';
 import Plants from './components/Plants';
 import Service from "./components/Service";
 import Galery from './components/Galery';
+import Testimony from './components/Testimony';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Plants/>
       <Service/>
       <Galery/>
+      <Testimony/>
     </main>
     </>
   )

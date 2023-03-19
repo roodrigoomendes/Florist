@@ -28,12 +28,14 @@ const BoxGalery = styled.div`
 display: flex;
 gap: 10px;
 margin-bottom: 120px;
-div{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  img{
-    flex: 1;
+
+  div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    img{
+      flex: 1;
+    }
   }
-}
 `
