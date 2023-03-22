@@ -11,7 +11,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-<img  alt="screengif" width="700" src="https://github.com/roodrigoomendes/Florist/blob/master/src/assets/florestName.png">
+<img  alt="screengif" width="700" src="https://github.com/roodrigoomendes/Florist/blob/master/src/assets/florest.gif?raw=true">
 
 
 ### Florest o E-commerce de plantas
